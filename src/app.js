@@ -117,8 +117,8 @@ function isValidMessage() {
 }
 
 function isTotalTrue() {
-  const SUMMITBUTTON = document.querySelector("#summitButton");
-  SUMMITBUTTON.addEventListener("focusout", event => {
+  const SUBMITBUTTON = document.querySelector("#submitButton");
+  SUBMITBUTTON.addEventListener("focusout", event => {
     if (document.querySelectorAll("#")) {
       alert("There is one ore more invalid imputs");
     }
